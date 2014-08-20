@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>02480d7d-1de3-4eda-a062-04c6fe99ce84</ProjectGuid>
+    <ProjectHome>.</ProjectHome>
+    <StartupFile>optimalBST.py</StartupFile>
+    <SearchPath>
+    </SearchPath>
+    <WorkingDirectory>.</WorkingDirectory>
+    <OutputPath>.</OutputPath>
+    <Name>StanfordAlgorithms</Name>
+    <RootNamespace>StanfordAlgorithms</RootNamespace>
+    <InterpreterId>{851c4e04-83db-4384-9e00-5393955949cf}</InterpreterId>
+    <InterpreterVersion>3.3</InterpreterVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <DebugSymbols>true</DebugSymbols>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <DebugSymbols>true</DebugSymbols>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="bellmanFord.py" />
+    <Compile Include="clustering.py" />
+    <Compile Include="clusteringHamming.py" />
+    <Compile Include="clusteringHamming2.py" />
+    <Compile Include="clusteringHamming3.py" />
+    <Compile Include="countInversions.py" />
+    <Compile Include="dijkstraAllpaths.py" />
+    <Compile Include="ewgraph.py" />
+    <Compile Include="floydWarshall.py" />
+    <Compile Include="floydWarshall2.py" />
+    <Compile Include="floydWarshallALT.py" />
+    <Compile Include="greedy.py" />
+    <Compile Include="greedy2.py" />
+    <Compile Include="huffman.py" />
+    <Compile Include="IndexEqualsValue.py" />
+    <Compile Include="indexMinPQ.py" />
+    <Compile Include="johnsonAlgo.py" />
+    <Compile Include="knapSack.py" />
+    <Compile Include="knapSackExperiments.py" />
+    <Compile Include="knapSackExperiments2.py" />
+    <Compile Include="knapSackExperiments3.py" />
+    <Compile Include="lateness.py" />
+    <Compile Include="LeastUpperBound.py" />
+    <Compile Include="median.py" />
+    <Compile Include="MST.py" />
+    <Compile Include="optimalBST.py" />
+    <Compile Include="redblacktrees.py" />
+    <Compile Include="requests.py" />
+    <Compile Include="SecondLargest.py" />
+    <Compile Include="SUM2.py" />
+    <Compile Include="SUM2hash.py" />
+    <Compile Include="testCaseGenerator.py" />
+    <Compile Include="tsp3.py" />
+    <Compile Include="tsp3_expt.py" />
+    <Compile Include="tsp4_expt.py" />
+    <Compile Include="tsp5.py" />
+    <Compile Include="tsp6.py" />
+    <Compile Include="tsp_eff_2.py" />
+    <Compile Include="Unimodal.py" />
+    <Compile Include="UnionFind.py" />
+    <Compile Include="virtualShortestPath.py" />
+    <Compile Include="weightedIS.py" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="IntegerArray.txt" />
+    <Content Include="sowpods.txt" />
+    <Content Include="tinyEWDigraph_Stanford.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <InterpreterReference Include="{851c4e04-83db-4384-9e00-5393955949cf}\3.3" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.Common.targets" />
+</Project>
