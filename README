@@ -1,0 +1,21 @@
+This repo holds my work for Stanford Coursera Algo class part 2.
+
+Includes:
+
+Greedy
+MST (Prim, Kruskal)
+Clustering
+Huffman
+
+All-Pairs Shortest Paths
+Dijkstra All-Paths
+BellmanFord
+FloydWarshall
+Johnson's
+
+Dynamic Programming
+Knapsack
+Optimal BST
+
+Reduction
+2SAT
